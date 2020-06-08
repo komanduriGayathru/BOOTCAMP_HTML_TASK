@@ -1,0 +1,35 @@
+What is the output of the following code examples?
+
+1) 
+x=123 
+for i in x:
+    print(i)
+
+This will throw an error because we can't iterate through an int
+==================================
+
+2) 
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print("error")
+
+This will print 0 1 2
+===================================
+
+3)
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        Break
+
+Here it will through an error "Break is not defined"
+We need to change "Break" into break in order to run this python program 
+And this will be the result if we change break keyword: 0 1 2 3 4
+===================================
